@@ -6,12 +6,18 @@
 @import "Component/nav-bar.css";
 @import "Component/screen-header.css";
 @import "Component/user-component.css";
-/* components */
+@import "Component/badge.css";
+/* screen */
 @import "Screen/login.css";
 @import "Screen/friends.css";
+@import "Screen/reset-icon.css";
+@import "Screen/search.css";
 
 body {
   background-color: #011735;
   font-family: "Quantico", sans-serif;
   color: white;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
