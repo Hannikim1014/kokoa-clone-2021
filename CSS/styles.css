@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap");
 @import "reset.css";
 @import "variables.css";
 /* components */
@@ -11,7 +11,7 @@
 @import "Screen/friends.css";
 
 body {
-  background-color: white;
-  font-family: "Nunito", sans-serif;
-  color: #2e363e;
+  background-color: #011735;
+  font-family: "Quantico", sans-serif;
+  color: white;
 }

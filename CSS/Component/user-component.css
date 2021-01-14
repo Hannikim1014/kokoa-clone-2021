@@ -1,10 +1,41 @@
+
 .user-component {
-  display: flex;
+  justify-content: space-between;
 }
+.user-component,
 .user-component__col:first-child {
   display: flex;
+  align-items: center;
 }
 .user-component__avatar {
   width: 70px;
   height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar__xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar__sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title---not-bold {
+  font-weight: 200;
+}
+
+.user-component__col:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
