@@ -8,18 +8,18 @@
   font-size: 16px;
 }
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.438);
+  color: rgba(225, 225, 225, 0.438);
 }
 .friend-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(225, 225, 225, 0.438);
   padding-top: 15px;
 }
 .friend-screen__channel-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(225, 225, 225, 0.5);
 }
 .friend-screen {
   padding: 0px var(--horizontal-space);

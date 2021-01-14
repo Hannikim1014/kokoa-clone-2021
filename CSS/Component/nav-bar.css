@@ -7,6 +7,12 @@
   bottom: 0;
   width: 100%;
 }
+.nav__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .nav__list {
   display: flex;
   justify-content: space-between;
@@ -16,22 +22,22 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
+  background-color: var(--blue);
   color: white;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 400;
+  font-weight: 300;
   position: absolute;
-  bottom: 15px;
-  left: 15px;
+  bottom: 40px;
+  left: 40px;
 }
 
 .nav__dot {
-  background-color: tomato;
+  background-color: var(--blue);
   height: 5px;
   width: 5px;
   display: flex;
@@ -44,4 +50,13 @@
   height: 50px;
   align-items: center;
   justify-content: center;
+  color: var(--blue);
+}
+.nav__link-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
 }
