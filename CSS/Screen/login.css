@@ -7,7 +7,7 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 25px;
   font-weight: 400px;
 }
@@ -26,7 +26,7 @@
   padding: 15px 0px;
   border: none;
   font-size: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.418);
   margin-bottom: 25px;
   background-color: var(--blue);
   transition: border-color 0.3s ease-in-out;
@@ -35,7 +35,7 @@
   color: rgba(255, 255, 255, 0.2);
 }
 #login-form input:focus {
-  border-color: var(--white);
+  border-color: white;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);

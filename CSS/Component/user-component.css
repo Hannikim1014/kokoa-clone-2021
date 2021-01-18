@@ -43,7 +43,7 @@
   align-items: flex-end;
 }
 #red {
-  color: red;
+  color: #e74c3c;
 }
 .user-component__time {
   margin-bottom: 10px;
